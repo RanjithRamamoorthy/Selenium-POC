@@ -26,6 +26,10 @@ public class HomePage {
 		int helpSize = driver.findElements(linkHelp).size();
 		boolean a = true;
 		
+		
+		\\
+		
+		
 		screen.getScreenshot(driver, "Access Check");
 		
 		if (homeSize == 0) {System.out.println("User Does not have access to home page"); a = false;} else System.out.println("User has access to Home page");
